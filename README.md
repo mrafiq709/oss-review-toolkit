@@ -461,6 +461,23 @@ cli/build/install/ort/bin/ort -P ort.scanner.skipExcluded=true scan -i ./../outp
 
 6. Running the evaluator
 
+##### Authentication for private repository
+
+Create a **.netrc** file in your home directory:
+
+```
+machine github.com
+login YOUR_USERNAME
+password YOUR_PERSONAL_ACCESS_TOKEN
+chmod 600 ~/.netrc
+```
+
+##### Using SSH Authentication
+
+```
+ssh-add ~/.ssh/id_rsa
+```
+
 ---
 
 ```
