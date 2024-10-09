@@ -53,6 +53,7 @@ ort:
 Setup curations
 ----------------
 Why curations ?
+
 If you see in *analyzer-result*
 ```json
 "declared_licenses_processed" : {
@@ -65,6 +66,7 @@ Check declared license
 -----------------------
 ***ort/utils/spdx/src/main/resources/declared-license-mapping.yml***
 ​
+
 If these licenses are does not exist then add those.
 ```bash
 "BSD License": BSD-3-Clause
