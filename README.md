@@ -21,8 +21,9 @@ Folder Structures
 * [evaluator.rules.kts](./evaluator.rules.kts)
 * [license-classifications.yml](./license-classifications.yml)
 ​
+
 Global configuration Folder Structure
----------------------------
+-------------------------------------
 ```bash
 cd ~/
 ```
@@ -32,8 +33,7 @@ cd ~/
       * [curations.yml](./curations.yml)
       * [license-classifications.yml](./license-classifications.yml)
 		 
-conig.yml
-----------
+*conig.yml*
 ```yml
 ort:
    # Force overwriting of any existing output files.
