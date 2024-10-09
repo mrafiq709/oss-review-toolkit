@@ -1,0 +1,14 @@
+- id: "PyPI::numpy:2.1.2"
+  curations:
+    comment: |
+      The declared license is ambiguous. Map it according to the root license, see
+      https://github.com/numpy/numpy/blob/main/LICENSE.txt
+    declared_license_mapping:
+      "BSD License": "BSD-3-Clause"
+- id: "PyPI::mysql-connector-python:8.4.0"
+  curations:
+    comment: |
+      The declared license is ambiguous. Map it according to the root license, see
+      https://github.com/mysql/mysql-connector-python/blob/trunk/LICENSE.txt
+    declared_license_mapping:
+      "GNU GPLv2 (with FOSS License Exception)": "GPL-2.0-only WITH Universal-FOSS-exception-1.0"

@@ -1,0 +1,10 @@
+analyzer:
+  skip_excluded: true
+excludes:
+  scopes:
+  - pattern: "devDependencies"
+    reason: "DEV_DEPENDENCY_OF"
+    comment: "Exclude devDependencies."
+  - pattern: "node_modules/*"
+    reason: "BUILD_TOOL_OF"
+    comment: "Exclude node_modules."

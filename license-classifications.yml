@@ -20,7 +20,7 @@ categories:
   description: >-
     A marker category that indicates that the licenses assigned to it require that the source code of the packages
     needs to be provided.
-
+​
 categorizations:
 - id: "AGPL-1.0"
   categories:
@@ -171,6 +171,11 @@ categorizations:
   - "include-in-notice-file"
   - "include-source-code-offer-in-notice-file"
 - id: "GPL-2.0-only WITH Classpath-exception-2.0"
+  categories:
+  - "copyleft-limited"
+  - "include-in-notice-file"
+  - "include-source-code-offer-in-notice-file"
+- id: "GPL-2.0-only WITH Universal-FOSS-exception-1.0"
   categories:
   - "copyleft-limited"
   - "include-in-notice-file"

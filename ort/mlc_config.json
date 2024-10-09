@@ -1,0 +1,25 @@
+{
+    "ignorePatterns": [
+        {
+            "pattern": "^#.*$"
+        },
+        {
+            "pattern": "^https://bazel.build/$"
+        },
+        {
+            "pattern": "^https?://localhost.*$"
+        },
+        {
+            "pattern": "^https://fossid.com/$"
+        },
+        {
+            "pattern": "^https://fpchat-invite.herokuapp.com/$"
+        },
+        {
+            "pattern": "^https://source.android.com/setup/develop/repo$"
+        },
+        {
+            "pattern": "^../../tutorial/intro(#.+)?$"
+        }
+    ]
+}

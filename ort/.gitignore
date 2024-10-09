@@ -1,0 +1,15 @@
+.gradle/
+.idea/
+!.idea/icon*.png
+.kotlin/
+build/
+out/
+/local.properties
+/*.iml
+Dockerfile.custom
+
+# Kotest temporary directory
+.kotest/
+
+# Mac
+.DS_Store
