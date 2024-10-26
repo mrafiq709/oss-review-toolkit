@@ -1,4 +1,0 @@
-module(
-    name = "module_c",
-    version = "0.0.1",
-)

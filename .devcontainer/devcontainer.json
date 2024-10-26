@@ -1,0 +1,29 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/debian
+{
+	"name": "OSS-REVIEW-TOOLKIT",
+	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+	"image": "mcr.microsoft.com/devcontainers/python:1-3.12-bullseye",
+	"features": {
+		"ghcr.io/devcontainers/features/docker-in-docker:2": {},
+		"ghcr.io/devcontainers/features/common-utils:2": {}
+	},
+
+	"remoteEnv": {},
+
+	"postCreateCommand": {
+		"pip_update": "pip install --upgrade pip",
+		"oss": "pip3 install --user -r .devcontainer/requirements.oss.txt",
+		"ip_address": "echo 'export IP_ADDR=$(ip route get 1.1.1.1 | awk \"{print \\$7}\" )' >> /root/.bashrc"
+	},
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	"forwardPorts": [],
+
+	// Configure tool-specific properties.
+	// "customizations": {},
+	"postStartCommand": "/bin/sh .devcontainer/oss.sh",
+
+	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+	"remoteUser": "root"
+}
