@@ -1,8 +1,8 @@
 #!/bin/sh
-REPO_DIR="/workspaces/OSS-REVIEW-TOOLKIT"
+REPO_DIR="/workspaces/oss-review-toolkit"
 ORT_DIR="$REPO_DIR/ort"
 
-[ ! -d "/workspaces/OSS-REVIEW-TOOLKIT/output" ] && mkdir -p /workspaces/OSS-REVIEW-TOOLKIT/output
+[ ! -d "$REPO_DIR/output" ] && mkdir -p $REPO_DIR/output
 
 # Install NVM (Node Version Manager) if not already installed
 if [ ! -d "/usr/local/share/nvm" ]; then
